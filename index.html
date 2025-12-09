@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Raju Guguloth - Data Scientist, Machine Learning & AI Engineer showcasing projects, blog, and resume.">
+  <meta name="keywords" content="Raju Guguloth, Data Scientist, Machine Learning, AI Engineer, Portfolio, NLP, Deep Learning">
+  <title>Raju Guguloth | Data Scientist</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <canvas id="bg-canvas" aria-hidden="true"></canvas>
+  <header class="site-header">
+    <nav class="nav">
+      <div class="brand">
+        <div class="logo">RG</div>
+        <span class="name">Raju Guguloth</span>
+      </div>
+      <button class="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#resume" class="nav-link">Resume</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#blog" class="nav-link">Blog</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="theme-toggle" aria-label="Toggle dark mode">
+        <span class="icon-sun" aria-hidden="true"></span>
+        <span class="icon-moon" aria-hidden="true"></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="section hero">
+      <div class="hero-content">
+        <div class="hero-text" data-animate>
+          <p class="eyebrow">Data • AI • Impact</p>
+          <h1>Raju Guguloth</h1>
+          <h2 id="typewriter" aria-live="polite">Data Scientist | Machine Learning &amp; AI Engineer</h2>
+          <p class="lead">
+            I build data-driven products across machine learning, deep learning, NLP, and AI—turning experiments into deployable impact.
+          </p>
+          <div class="cta-row">
+            <a class="btn primary" href="#resume">View Resume</a>
+            <a class="btn ghost" href="#projects">View Projects</a>
+            <!-- <a class="btn outline" href="RajResume.pdf" target="_blank" rel="noopener">Download PDF</a> -->
+          </div>
+          <div class="hero-tags">
+            <span>ML</span><span>DL</span><span>NLP</span><span>Generative AI</span><span>Data Science</span>
+          </div>
+        </div>
+        <div class="hero-visual" data-animate>
+          <div class="profile-wrap">
+            <img src="Raj.png" alt="Portrait of Raju Guguloth" class="profile-photo">
+            <div class="glow"></div>
+          </div>
+          <div class="stat-card glass">
+            <p>Experiments Tracked</p>
+            <strong>150+</strong>
+            <small>W&amp;B, MLFlow, custom dashboards</small>
+          </div>
+          <div class="stat-card glass">
+            <p>Models Deployed</p>
+            <strong>20+</strong>
+            <small>APIs, dashboards, automations</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="resume" class="section resume">
+      <div class="section-header">
+        <p class="eyebrow">Resume</p>
+        <h3>Experience Snapshot</h3>
+        <div class="actions">
+          <a class="btn primary" href="resume.html" target="_blank" rel="noopener">Open Resume</a>
+        </div>
+      </div>
+      <div class="resume-grid">
+        <div class="card glass" data-animate>
+          <h4>Education</h4>
+          <ul class="timeline">
+            <li>
+              <div class="dot"></div>
+              <div>
+                <strong>M.Tech, CSE — IIT Madras</strong>
+                <p>Focus: Machine Learning, AI, Systems</p>
+              </div>
+            </li>
+            <li>
+              <div class="dot"></div>
+              <div>
+                <strong>B.Tech, CSE</strong>
+                <p>Algorithms, data systems, applied ML</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="card glass" data-animate>
+          <h4>Core Skills</h4>
+          <div class="pill-list">
+            <span>Python</span><span>Machine Learning</span><span>Deep Learning</span>
+            <span>NLP</span><span>Data Science</span><span>SQL</span>
+            <span>Time Series</span><span>Computer Vision</span>
+          </div>
+        </div>
+        <div class="card glass" data-animate>
+          <h4>Tools</h4>
+          <div class="pill-list">
+            <span>PyTorch</span><span>TensorFlow</span><span>Scikit-learn</span>
+            <span>Pandas</span><span>NumPy</span><span>Matplotlib</span>
+            <span>W&amp;B</span><span>MLflow</span><span>Docker</span>
+          </div>
+        </div>
+        <div class="card glass" data-animate>
+          <h4>Experience</h4>
+          <ul class="timeline">
+            <li>
+              <div class="dot"></div>
+              <div>
+                <strong>Data Science Intern</strong>
+                <p>Built ML pipelines, experiment tracking, and model evaluations.</p>
+              </div>
+            </li>
+            <li>
+              <div class="dot"></div>
+              <div>
+                <strong>AI Research Projects</strong>
+                <p>Computer vision, NLP, and predictive modeling with reproducible code.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects">
+      <div class="section-header">
+        <p class="eyebrow">Projects</p>
+        <h3>Data Science &amp; ML Work</h3>
+        <p class="section-sub">
+          Highlighting impact-focused projects across ML, DL, NLP, and data products.
+        </p>
+      </div>
+      <div id="project-grid" class="card-grid"></div>
+    </section>
+
+    <section id="blog" class="section blog">
+      <div class="section-header">
+        <p class="eyebrow">Blog</p>
+        <h3>Internships &amp; Learning Journey</h3>
+        <p class="section-sub">
+          Stories from internships, experiments, and lessons learned in building ML systems.
+          <!-- TODO: Connect to real posts or a CMS. -->
+        </p>
+      </div>
+      <div id="blog-grid" class="card-grid blog-grid"></div>
+      <div id="blog-modal" class="modal" aria-hidden="true">
+        <div class="modal-content glass">
+          <button class="modal-close" aria-label="Close blog post">&times;</button>
+          <div class="modal-body"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="section-header">
+        <!-- <p class="eyebrow">Contact</p> -->
+        <h3>Contact</h3>
+        <p class="section-sub">Open to opportunities in data science, ML engineering, and research.</p>
+      </div>
+      <div class="contact-grid single">
+        <div class="card glass" data-animate>
+          <ul class="contact-list">
+            <li><span class="label">Name</span><span>Raju Guguloth</span></li>
+            <li><span class="label">Email</span><span>rajuguguloth7670@gmail.com</span></li>
+            <li><span class="label">Location</span><span>India</span></li>
+            <li><span class="label">GitHub</span><a href="https://github.com/RajuGuguloth" target="_blank" rel="noopener">github.com/RajuGuguloth</a></li>
+            <li><span class="label">LinkedIn</span><a href="https://linkedin.com/in/raju-guguloth-b78718206" target="_blank" rel="noopener">linkedin.com/in/raju-guguloth-b78718206</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Built for data, AI, and impact — Raju Guguloth.</p>
+    <div class="footer-links">
+      <a href="#home">Home</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
+
