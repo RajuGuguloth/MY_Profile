@@ -120,6 +120,13 @@ const keywords = [
   'predict',
   'model',
   'analysis',
+  // added security/network keywords so security-related repos appear
+  'security',
+  'firewall',
+  'network',
+  'tcl',
+  'cyber',
+  'intrusion',
 ];
 
 const accents = ['#22d3ee', '#a78bfa', '#f472b6', '#34d399', '#f59e0b', '#60a5fa', '#7dd3fc'];
@@ -402,4 +409,3 @@ window.addEventListener('keydown', (e) => {
     blogModal.setAttribute('aria-hidden', 'true');
   }
 });
-
